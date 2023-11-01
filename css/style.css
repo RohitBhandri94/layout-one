@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+.clear,
+.clear::after,
+.clear::before{
+    display: table;
+    clear: both;
+}
+
+.logo-wrapper{
+    float: left;
+    margin-left: 100px;
+}
+
+
+
+.design-section{
+    float: right;
+    margin-bottom: 50px;
+} 
+
+.banner-img{
+    margin:20px 0;
+}
+.menu-wrapper  {
+    float: right;
+}
+
+li{
+    display: inline;
+}
+
+.menu-wrapper li a{
+    text-decoration:none;
+    margin-right:40px;
+    color: #000;
+    font-weight:400;
+    font-size:18px;
+ 
+}
+.header-menu {
+    margin-top: 20px;
+
+}
+
+.menu-wrapper a:hover,
+.menu-wrapper a.activemenu{
+	color:#28a7be;
+    font-weight:600;
+    background-color: orange;
+}
+
+
+
+.box{
+    float:left;
+    width: 200px;
+    margin-right:30px;
+    text-align: center;
+}
+
+
+
+button{
+    background-color: #28a7be;
+    color: #fff;
+    padding: 10px;
+    font-weight: 700;
+}
+
+p{
+    font-size:14px;
+    font-weight:300;
+    margin:20px 0;
+    line-height:20px;
+}
+
+.protfolio-section{
+    background-color: #f1f1f1;
+    width: 1000px;
+    padding: 0 150px;
+}
+
+.portfolio{
+    text-align: center;
+    margin: 20px 0;
+    
+}
+.center{
+   margin: auto;
+}
+
+
+.img-box ,.circle-box{
+    width: 160px;
+    margin: 20px;
+    float: left;
+}
+
+.circle-box{
+    width: 200px;
+    margin: 20px;
+    float: left;
+    text-align: center;
+}
+
+
+
+.protfolio-section button{
+    margin-bottom: 50px;
+}
+
+.team-section {
+    margin-top: 100px;
+}
+
+.footer-section{
+    background-image: url(../images/footer-photo.png);
+    height: 500px;
+    color: #fff;
+}
+
+.footer-center{
+    text-align:center ;
+    padding: 50px ;
+}
+
+.fa-facebook{
+    color: #3b5997; 
+    
+}
+
+.fa-square-x-twitter{
+    color: #3ef2fc
+    
+}
+
+.fa-google-plus{
+    color:#e44c41;
+}
+
+.footer-info{
+    width: 350px;
+    float: left;
+    margin-left: 100px;
+}
+
+aside{
+    float: left;
+    margin-left:70px ;
+}
+
+input{
+    width: 215px;
+    height: 30px;
+}
+
+textarea{
+    margin-top: 20px;
+}
